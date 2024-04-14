@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --paragraph-color: #6C757D;
+    --bg-section-color:#e9ecef;
+    --white-color: #ffffff;
+    --black-color:#000000;
+}
+.bg-section{
+    background-color: var(--bg-section-color);
+}
+section{
+    padding: 70px 20px;
+}
+p{
+    color: var(--paragraph-color);
+    font-size: 1.10em;
+    line-height: 1.5em;
+}
+/* start-section-header */
+.header{
+    background-image: url(../img/cover.webp);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.header-content h1{
+    font-size: 3em;
+    font-weight: 900;
+}
+.header-content p{
+    margin: 70px;
+    font-size: 3.5em;
+    font-weight: 300;
+    color: var(--white-color);
+    position: relative
+}
+.header-content p::after{
+    content:"|";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    animation-name: islam;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-transform: translate(-50% ,-50%);
+    -moz-transform: translate(-50% ,-50%);
+    -ms-transform: translate(-50% ,-50%);
+    -o-transform: translate(-50% ,-50%);
+}
+@keyframes islam{
+    0% {
+        content: "|";
+    }2% {
+        content: "I";
+    }4% {
+        content: "I|";
+    }6% {
+        content: "Is";
+    }8% {
+        content: "Is|";
+    }10% {
+        content: "Isl";
+    }12% {
+        content: "Isl|";
+    }14% {
+        content: "Isla";
+    }16% {
+        content: "Isla|";
+    }18% {
+        content: "Islam";
+    }20% {
+        content: "Islam|";
+    }22% {
+        content: "Islam";
+    }24% {
+        content: "Islam|";
+    }26% {
+        content: "IslamA";
+    }28% {
+        content: "IslamA|";
+    }30% {
+        content: "IslamAb";
+    }32% {
+        content: "IslamAb|";
+    }34% {
+        content: "IslamAbd";
+    }36% {
+        content: "IslamAbd|";
+    }38% {
+        content: "IslamAbdu";
+    }40% {
+        content: "IslamAbdu|";
+    }42% {
+        content: "IslamAbdul";
+    }44% {
+        content: "IslamAbdul|";
+    }46% {
+        content: "IslamAbdull";
+    }48% {
+        content: "IslamAbdull|";
+    }50% {
+        content: "IslamAbdulla";
+    }52% {
+        content: "IslamAbdulla|";
+    }60% {
+        content: "IslamAbdullah";
+    }61% {
+        content: "IslamAbdulla|";
+    }62% {
+        content: "IslamAbdullah";
+    }63% {
+        content: "IslamAbdulla|";
+    }64% {
+        content: "IslamAbdulla";
+    }65% {
+        content: "IslamAbdull|";
+    }66% {
+        content: "IslamAbdull";
+    }67% {
+        content: "IslamAbdul|";
+    }68% {
+        content: "IslamAbdul";
+    }69% {
+        content: "IslamAbdu|";
+    }70% {
+        content: "IslamAbdu";
+    }71% {
+        content: "IslamAbd|";
+    }72% {
+        content: "IslamAbd";
+    }73% {
+        content: "IslamAb|";
+    }74% {
+        content: "IslamAb";
+    }75% {
+        content: "IslamA|";
+    }76% {
+        content: "IslamA";
+    }77% {
+        content: "Islam|";
+    }78% {
+        content: "Islam";
+    }79% {
+        content: "Islam|";
+    }80% {
+        content: "Islam";
+    }81% {
+        content: "Isla|";
+    }82% {
+        content: "Isla";
+    }83% {
+        content: "Isl|";
+    }84% {
+        content: "Isl";
+    }85% {
+        content: "Is|";
+    }86% {
+        content: "Is";
+    }87% {
+        content: "I|";
+    }88% {
+        content: "I";
+    }100% {
+        content: "";
+    }
+}
+.header-icon{
+    padding-top: 70px;
+}
+.header-icon div{
+    height: 40px;
+    width: 40px;
+}
+/* start-section-about-me */
+.btn-1{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.btn-1:hover{
+    background-color: var(--white-color);
+    color: rgb(176, 201, 216);
+    border: var(--black-color) solid 1px;
+}
+.btn-2{
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.btn-2:hover{
+    background-color: var(--black-color);
+    color: var(--white-color);
+
+}
+/* start-section-services */
+.section-head h1{
+    font-size:3.5em;
+}
+.icon{
+    font-size: 1.5em;
+    background-color: var(--bg-section-color);
+    padding: .8em;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.card:hover .icon{
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+/* start-section-portfolio */
+.portfolio .nav .nav-item .nav-link{
+    color: var(--black-color);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.portfolio .nav .nav-item .active{
+    border-bottom: var(--black-color) solid .1em;
+    border-radius: 13%;
+    -webkit-border-radius: 13%;
+    -moz-border-radius: 13%;
+    -ms-border-radius: 13%;
+    -o-border-radius: 13%;
+}
+.layer-card{
+    opacity: 0;
+    border: var(--black-color) solid 0em;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.layer-card:hover{
+    opacity: 1;
+    border: var(--black-color) solid .35em;
+    
+}
+/* start-section-Testimonials */
+.carousel-indicators{
+    margin-bottom: -40px;
+}
+.slider{
+    background-color: var(--paragraph-color) !important;
+    height: 10px !important;
+    width: 10px !important; 
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* start-section-Blog */
+.parent-img{
+    overflow: hidden;
+}
+.card-blog img{
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.card-blog img:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
