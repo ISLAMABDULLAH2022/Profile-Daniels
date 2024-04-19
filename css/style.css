@@ -56,123 +56,161 @@ p{
     -ms-transform: translate(-50% ,-50%);
     -o-transform: translate(-50% ,-50%);
 }
-@keyframes islam{
+@keyframes islam {
     0% {
-        content: "|";
-    }2% {
-        content: "I";
-    }4% {
-        content: "I|";
-    }6% {
-        content: "Is";
-    }8% {
-        content: "Is|";
-    }10% {
-        content: "Isl";
-    }12% {
-        content: "Isl|";
-    }14% {
-        content: "Isla";
-    }16% {
-        content: "Isla|";
-    }18% {
-        content: "Islam";
-    }20% {
-        content: "Islam|";
-    }22% {
-        content: "Islam";
-    }24% {
-        content: "Islam|";
-    }26% {
-        content: "IslamA";
-    }28% {
-        content: "IslamA|";
-    }30% {
-        content: "IslamAb";
-    }32% {
-        content: "IslamAb|";
-    }34% {
-        content: "IslamAbd";
-    }36% {
-        content: "IslamAbd|";
-    }38% {
-        content: "IslamAbdu";
-    }40% {
-        content: "IslamAbdu|";
-    }42% {
-        content: "IslamAbdul";
-    }44% {
-        content: "IslamAbdul|";
-    }46% {
-        content: "IslamAbdull";
-    }48% {
-        content: "IslamAbdull|";
-    }50% {
-        content: "IslamAbdulla";
-    }52% {
-        content: "IslamAbdulla|";
-    }60% {
-        content: "IslamAbdullah";
-    }61% {
-        content: "IslamAbdulla|";
-    }62% {
-        content: "IslamAbdullah";
-    }63% {
-        content: "IslamAbdulla|";
-    }64% {
-        content: "IslamAbdulla";
-    }65% {
-        content: "IslamAbdull|";
-    }66% {
-        content: "IslamAbdull";
-    }67% {
-        content: "IslamAbdul|";
-    }68% {
-        content: "IslamAbdul";
-    }69% {
-        content: "IslamAbdu|";
-    }70% {
-        content: "IslamAbdu";
-    }71% {
-        content: "IslamAbd|";
-    }72% {
-        content: "IslamAbd";
-    }73% {
-        content: "IslamAb|";
-    }74% {
-        content: "IslamAb";
-    }75% {
-        content: "IslamA|";
-    }76% {
-        content: "IslamA";
-    }77% {
-        content: "Islam|";
-    }78% {
-        content: "Islam";
-    }79% {
-        content: "Islam|";
-    }80% {
-        content: "Islam";
-    }81% {
-        content: "Isla|";
-    }82% {
-        content: "Isla";
-    }83% {
-        content: "Isl|";
-    }84% {
-        content: "Isl";
-    }85% {
-        content: "Is|";
-    }86% {
-        content: "Is";
-    }87% {
-        content: "I|";
-    }88% {
-        content: "I";
-    }100% {
-        content: "";
+      content: "Free";
     }
-}
+    2% {
+      content: "Fre|";
+    }
+    4% {
+      content: "Fr";
+    }
+    6% {
+      content: "F";
+    }
+    8% {
+      content: "|";
+    }
+    10% {
+      content: "";
+    }
+    12% {
+      content: "J|";
+    }
+    14% {
+      content: "Ju";
+    }
+    16% {
+      content: "Jun|";
+    }
+    18% {
+      content: "Juni";
+    }
+    20% {
+      content: "Junio|";
+    }
+    22% {
+      content: "Junior";
+    }
+    24% {
+      content: "Junior |";
+    }
+    26% {
+      content: "JuniorF";
+    }
+    28% {
+      content: "JuniorFr|";
+    }
+    30% {
+      content: "JuniorFro";
+    }
+    32% {
+      content: "JuniorFron|";
+    }
+    34% {
+      content: "JuniorFront";
+    }
+    36% {
+      content: "JuniorFront|";
+    }
+    38% {
+      content: "JuniorFrontE";
+    }
+    40% {
+      content: "JuniorFrontEn|";
+    }
+    42% {
+      content: "JuniorFrontEnd";
+    }
+    44% {
+      content: "JuniorFront|";
+    }
+    46% {
+      content: "JuniorFron";
+    }
+    48% {
+      content: "JuniorFro|";
+    }
+    50% {
+      content: "JuniorFr";
+    }
+    52% {
+      content: "JuniorF|";
+    }
+    54% {
+      content: "Junior ";
+    }
+    56% {
+      content: "Junior|";
+    }
+    58% {
+      content: "";
+    }
+    60% {
+      content: "I|";
+    }
+    62% {
+      content: "Is";
+    }
+    64% {
+      content: "Isl|";
+    }
+    66% {
+      content: "Isla";
+    }
+    68% {
+      content: "Islam|";
+    }
+    70% {
+      content: "IslamAb";
+    }
+    72% {
+      content: "IslamAbd|";
+    }
+    74% {
+      content: "IslamAbdu";
+    }
+    76% {
+      content: "IslamAbdul|";
+    }
+    78% {
+      content: "IslamAbdull";
+    }
+    80% {
+      content: "IslamAbdulla|";
+    }
+    82% {
+      content: "IslamAbdullah";
+    }
+    84% {
+      content: "IslamAbdulla|";
+    }
+    86% {
+      content: "IslamAbdul";
+    }
+    88% {
+      content: "IslamAbdu|";
+    }
+    90% {
+      content: "IslamAb";
+    }
+    92% {
+      content: "IslamA|";
+    }
+    94% {
+      content: "Islam";
+    }
+    96% {
+      content: "Isla|";
+    }
+    98% {
+      content: "Isl";
+    }
+    100% {
+      content: "Is|";
+    }
+} 
 .header-icon{
     padding-top: 70px;
 }
